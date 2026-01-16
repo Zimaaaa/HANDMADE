@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+body.home {
+    background: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-text {
+    color: white;
+    font-size: 64px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+body.gallery {
+    background: black;
+    margin: 0;
+    overflow: hidden;
+}
+
+.photo {
+    position: absolute;
+    width: 250px;
+    cursor: grab;
+}
+
+.photo img {
+    width: 200%;
+    display: block;
+}
+
+body.view {
+    background: black;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bigImage {
+    max-width: 90vw;
+    max-height: 90vh;
+}
