@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+body.home {
+    background: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: "DK Blackminster";
+    src: url("fonts/DKBlackminster-Regular.woff") format("woff"),
+         url("fonts/DKBlackminster-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.center-text {
+    color: white;
+    font-size: 256px;
+    text-decoration: none;
+    font-family: "DK Blackminster", Arial, sans-serif;
+}
+
+body.gallery {
+    background: black;
+    margin: 0;
+    overflow: hidden;
+}
+
+.photo {
+    position: absolute;
+    width: 250px;
+    cursor: grab;
+}
+
+.photo img {
+    width: 200%;
+    display: block;
+}
+
+body.view {
+    background: black;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bigImage {
+    max-width: 90vw;
+    max-height: 90vh;
+}
